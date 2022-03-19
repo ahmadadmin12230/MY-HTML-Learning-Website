@@ -1,0 +1,53 @@
+body {
+  background: lightblue;
+}
+/* Bolding anything that has the "h1" tag */
+h1 {
+  font-weight: blod;
+}
+/* Set core root defaults */
+html {
+  scroll-behavior: smooth;
+}
+#countdown-container {
+  display: inline-block; /*displays divs on a line*/
+  width: 280x; /*gives the div element a width of 300px*/
+  margin: 20px 0; /*gives 20px space at the top and bottom of the div element*/
+  border-radius: 5px; /*curves the edges of the div element by 5px;*/
+  background: skyblue; /*gives the div element a background color*/
+}
+#countdown {
+  font-family: "Fira Sans", sans-serif; /*changes the text font in the divelement */
+  display: inline-block; /*displays divs on a line*/
+  padding: 30px; /*creates 30px space between the content of the div element and the walls of the div element*/
+  background: skyblue;
+  color: white; /*changes the text color in the div element*/
+}
+
+#countdown span {
+  font-weight: bold; /*boldens text in the span element*/
+  font-size: 30px; /*changes the text size in the span element*/
+}
+/* Skip to main content (coming soon)
+
+skip-nav-link {
+  position: absolute;
+  transform: translateY(-10000000%);
+}
+skip-nav-link:focus {
+  transform: translateY(0);
+}
+*/
+about {
+  font-weight: bolder;
+  color: black;
+  font-size: 18px;
+}
+nav {
+  font-weight: bold;
+  font-size: large;
+  background: fixed;
+  background-color: lightsalmon;
+  text-align: center;
+  word-spacing: 10px;
+}
